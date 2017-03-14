@@ -5,29 +5,32 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
+import java.util.Scanner;
+
 public class Connect4
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Connect4
-     */
-    public Connect4()
-    {
-        // initialise instance variables
-        x = 0;
+    Scanner scan = new Scanner(System.in);
+    String[][] c4 = new String[6][7];
+    
+    public void main() {
+        makeBoard();
+        for(int play = 0; play < 42; play++) {
+            setLocation();
+            makeBoard();
+        }
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public void makeBoard() {
+        for(int i = 0; i < 7; i++) {
+            System.out.print(c4[0][i] + "/t");
+        }
+    }
+    
+    public void setLocation() {
+        
+    }
+    
+    public boolean win() {
+        return true;
     }
 }
