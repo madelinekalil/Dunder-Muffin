@@ -1,24 +1,22 @@
 
 /**
- * Write a description of class DeleteMe here.
+ * Write a description of class Connect4 here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class DeleteMe
+public class Connect4
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class DeleteMe
+     * Constructor for objects of class Connect4
      */
-    public DeleteMe()
+    public Connect4()
     {
         // initialise instance variables
         x = 0;
-        
-        //more text here
     }
 
     /**
