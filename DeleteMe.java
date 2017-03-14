@@ -17,6 +17,8 @@ public class DeleteMe
     {
         // initialise instance variables
         x = 0;
+        
+        //more text here
     }
 
     /**
