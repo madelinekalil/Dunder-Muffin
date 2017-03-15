@@ -22,7 +22,9 @@ public class Connect4
     
     public void makeBoard() {
         for(int i = 0; i < 7; i++) {
-            System.out.print(c4[0][i] + "/t");
+            for(int j = 0; j < 6; j++) {
+                System.out.print(c4[j][i] + "/t");
+            }
         }
     }
     
